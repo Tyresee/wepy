@@ -683,7 +683,7 @@ export default class MyAPP extends wepy.app {
 }
 ```
 
-在Page页面实例中，可以通过`this.$parent`来访问App实例。
+在Page页面实例中，可以通过`this.$parent`来访问App实例。在页面或组件中可以通过wepy.$instance获取到app实例。
 
 
 #### Page页面实例和Component组件实例
